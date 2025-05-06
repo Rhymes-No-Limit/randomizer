@@ -144,6 +144,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Сохранить">
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="ggX-nn-EzQ" kind="unwind" unwindAction="unwindFor:" id="nwO-Sb-vb8"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3a-BS-3Va">
                                         <rect key="frame" x="34.333333333333329" y="54.666666666666686" width="120.99999999999999" height="54.666666666666657"/>
@@ -175,6 +178,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ASO-TZ-GeZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="ggX-nn-EzQ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1661.8320610687022" y="7.746478873239437"/>
         </scene>
